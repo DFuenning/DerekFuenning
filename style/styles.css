@@ -1,0 +1,37 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+.wrapper {
+    padding-top: 90px;
+    min-height: 850px;
+    text-align: center;
+}
+
+#avatar {
+    display: flex;
+    justify-content: center;
+}
+
+#color {
+    min-height: 375px;
+    background-color: aqua;
+}
+
+#things {
+    min-height: 500px;
+    margin: -200px 10px;
+    border: 1px solid black;
+    border-radius: 5%;
+    background-color: #fff;
+    /* display: flex;
+    justify-content: center; */
+}
+
+#things-cont {
+    text-align: center;
+}
