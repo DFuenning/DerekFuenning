@@ -7,15 +7,19 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style/styles.css">
+   
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" A
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/24d679f62a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/styles.css">
 </head>
 
-<body>
+<body class="w-100">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark w-100">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar10">
                 <span class="navbar-toggler-icon"></span>
@@ -26,51 +30,213 @@
                         <a class="nav-link" href="/crimewatch">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/map">Crime Map</a>
+                        <a class="nav-link" href="/map">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/report">Report</a>
+                        <a class="nav-link" href="/report">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/file">User Reports</a>
+                        <a class="nav-link" href="/file">Connect</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <header class="wrapper">
+    <header class="landing">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="heading">
                         <h1 class="intro">Full Stack Web Developer</h1>
-                        <h5 class="sub-heading">A forever student and teacher of writing beautiful code.</h5>
+                        <h5 class="sub-heading">A forever student of writing beautiful code.</h5>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row" id="avatar">
-            <img src="assets/Avatar-Maker.png" alt="avatar" style="width: 230px; height: 250px;">
+            <img src="assets/Avatar-grey.png" alt="avatar" style="width: 230px; height: 250px;">
         </div>
 
     </header>
+
     <div class="container-fluid" id="color">
+        <div class="skills-intro">
+            <h1>Hi, my name is Derek.</h1>
+            <p>After getting tired of the rat-race that was corporate finance, I decided to turn my attention towards something I loved, <span>creation.</span> 
+                <br> Development has not only sparked a passion in me for designing sites, but also humbled me as a student along the way. 
+                <br> I love being able to bring ideas to life and learn new tech along the way! 
+                <br> Connect with me!</p>
+        </div>
     </div>
+    
     <section class="stack">
-        <div class="container" >
+       
+        <div class="container">
             <div class="row" id="things-cont">
-                <div class="col-3" id="things">
-
+                <div class="col col-xs-9" id="things">
+                    <img src="./assets/frontend.png" alt="front-end">
+                    <h5>Front-end</h5>
+                    <p>HTML5</p>
+                    <p>CSS3</p>
+                    <p>JavaScript</p>
+                    <p>React.js</p>
+                    <p>jQuery</p>
+                    <p>JSON</p>
+                    <p>AJAX</p>
+                    <p>ES6</p>
+                    <p>Handlebars.js</p>
                 </div>
-                <div class="col-3" id="things">
-
+                <div class="col col-xs-9" id="things">
+                    <img src="./assets/code.png" alt="dev-tools">
+                    <h5>Dev & Design Tools</h5>
+                    <p>VS Code</p>
+                    <p>Atom</p>
+                    <p>Chrome Dev Tools</p>
+                    <p>GitHub</p>
+                    <p>Bash</p>
+                    <p>GitLab</p>
+                    <p>Terminal</p>
+                    <p>WordPress</p>
+                    <p>Webflow</p>
+                    <p>Wix</p>
+                    <p>Balsamiq</p>
                 </div>
-                <div class="col-3" id="things">
-
+                <div class="col col-xs-9" id="things">
+                    <img src="./assets/db.png" alt="back-end">
+                    <h5>Back-end</h5>
+                    <p>Node.js</p>
+                    <p>TDD</p>
+                    <p>Axios</p>
+                    <p>Express.js</p>
+                    <p>Sequelize</p>
+                    <p>Debugging</p>
+                    <h5>Databases</h5>
+                    <p>MySQL</p>
+                    <p>MondoDB</p>
                 </div>
             </div>
         </div>
     </section>
+
+    <div class="container-fluid" id="colorTwo">
+    </div>
+    <div class="neg-marginTwo">
+        <div class="port-intro" id="gallery">
+            <h1 id="portfolio">My Portoflio</h1>
+            <h5>Here are some of my recent works that I created in during my Bootcamp. 
+                <br>Please go to my GitHub and connect with me if you would like to see more repos and track my progress over the last year.
+                <br> I hope you enjoy!</h5>
+            <br>
+            <a class="github-button" href="https://github.com/DFuenning" data-size="large"
+                aria-label="Follow @ntkme on GitHub">Follow @DFuenning</a>
+        </div>
+
+        <div class="xop-section">
+            <ul class="xop-grid">
+                <li>
+                    <div class="xop-box xop-img-1">
+                        <a href="#">
+                            <div class="xop-info">
+                                <h3>Brewery Finder</h3>
+                                <p>Helping you find a local brew-house near you! Make with: HTML, CSS, JavaScript, and
+                                    Ajax</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="xop-box xop-img-2">
+                        <a href="#">
+                            <div class="xop-info">
+                                <h3>Crime Map</h3>
+                                <p>Tracking Chicago crimes and mapping their locations! Made with: Google APIs,
+                                    Handlebars, MySQL, JawsDB, Node.js, & Express</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="xop-box xop-img-3">
+                        <a href="#">
+                            <div class="xop-info">
+                                <h3>Workout Tracker</h3>
+                                <p>Track your workouts by day to see your progress! Made with: MongoDB, Chart.js, &
+                                    Node.</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="xop-box xop-img-4">
+                        <a href="#">
+                            <div class="xop-info">
+                                <h3>Burger App</h3>
+                                <p>Make a burger, the devour! Made with: MySQL, Node, & Handlebars</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer class="footer">
+		<div class="footer_content">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="footer_logo text-center"><a href="#"><img src="images/logo_3.png" alt=""></a></div>
+					</div>
+				</div>
+				<div class="row footer_row">
+					<div class="col-lg-4 footer_col">
+						<div class="footer_item text-center">
+							<div class="footer_icon d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
+								<div><img src="images/phone.png" alt=""></div>
+							</div>
+							<div class="footer_title">talk to me</div>
+							<div class="footer_list">
+								<ul>
+									<p>+1 330 571 3020</p>
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 footer_col">
+						<div class="footer_item text-center">
+							<div class="footer_icon d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
+								<div><img src="images/mail.png" alt=""></div>
+							</div>
+							<div class="footer_title">connect</div>
+							<div class="footer_list">
+								<ul>
+                                    <p>dfuenning@gmail.com</p>
+                                    <a href="https://github.com/DFuenning" target="_blank">GitHub</a>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 footer_col">
+						<div class="footer_item text-center">
+							<div class="footer_icon d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
+								<div><img src="images/contact.png" alt=""></div>
+							</div>
+							<div class="footer_title">location</div>
+							<div class="footer_list">
+								<ul>
+									<p>Cleveland, OH</p>
+									<p>Go Browns</p>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</footer>
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
