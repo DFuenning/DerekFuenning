@@ -18,11 +18,24 @@ nav {
 
 .landing {
     padding-top: 90px;
-    min-height: 850px;
+    min-height: 750px;
     text-align: center;
-   
+
 
 }
+
+.logo {
+    display: flex;
+    justify-content: center;
+    vertical-align: bottom;
+    min-height: 300px;
+}
+
+.logo img {
+   
+    padding-top: 115px
+}
+
 
 #avatar {
     display: flex;
@@ -37,7 +50,7 @@ nav {
     min-height: 475px;
     background-color: #00909e;
     padding: 0;
-    
+
 }
 
 #colorTwo {
@@ -57,6 +70,27 @@ nav {
 .skills-intro {
     text-align: center;
     font-weight: bolder;
+    line-height: 1.5em;
+}
+
+
+
+.connectBtn {
+    color: #000 !important;
+    text-transform: uppercase;
+    background: #ffffff;
+    padding: 20px;
+    border: 4px solid #000 !important;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+.connectBtn:hover {
+    color: #494949 !important;
+    border-radius: 50px;
+    border-color: #494949 !important;
+    transition: all 0.3s ease 0s;
 }
 
 
@@ -89,12 +123,12 @@ nav {
 
 .neg-margin {
     margin-top: -200px;
-    
+
 }
 
 .neg-marginTwo {
     margin-top: -375px;
-    
+
 }
 
 @media (max-width: 768px) {
@@ -105,6 +139,7 @@ nav {
         flex-wrap: wrap;
         vertical-align: middle;
     }
+
     #things-cont {
         padding-top: 150px;
     }
@@ -115,6 +150,11 @@ nav {
 
     nav {
         width: 100%;
+    }
+
+    .logo img {
+        padding-top: 100px;
+        width: 300px;
     }
 }
 
@@ -238,7 +278,7 @@ nav {
 /* footer start */
 
 .footer {
-    
+
     background: #00909e;
 }
 
@@ -256,11 +296,7 @@ nav {
     height: 56px;
 }
 
-.copyright {
-    font-size: 11px;
-    font-weight: 700;
-    color: #443586;
-}
+
 
 .footer_row {
     margin-top: 59px;
@@ -270,7 +306,7 @@ nav {
     width: 95px;
     height: 95px;
     border-radius: 50%;
-    background: #0f0432;
+    background: grey;
 }
 
 .footer_icon>div {
@@ -282,6 +318,7 @@ nav {
     max-width: 100%;
     max-height: 100%;
 }
+
 
 .footer_title {
     margin-top: 33px;
@@ -308,8 +345,7 @@ nav {
 }
 
 .footer_list ul p,
-.footer_list ul a
- {
+.footer_list ul a {
     text-align: center;
     font-size: 14px;
     font-weight: 700;
@@ -320,3 +356,17 @@ nav {
 .footer_list ul {
     padding: 0;
 }
+
+
+/* Contact form  */
+@media (max-width: 768px) {
+    #center {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .btn-success {
+        width: 50%;
+    }
+}
+
