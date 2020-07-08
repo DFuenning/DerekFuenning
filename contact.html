@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Derek Fuenning</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" A
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/24d679f62a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+
+<body class="w-100">
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar10">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbar10">
+                <ul class="navbar-nav nav-fill w-100">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#color">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#colorTwo">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="card shadow-lg">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-xl-8 offset-xl-2 py-5">
+                    <h1>Drop Me a Line!</h1>
+
+                    <p class="info">Please fill out all relavent sections below, and please give as much information
+                        as possible so I know how I can best help you. Thanks!</p>
+
+                    <!-- We're going to place the form here in the next step -->
+                    <form id="contact-form" action="https://formspree.io/xwkrrwzy" method="POST" role="form">
+
+                        <div class="messages"></div>
+
+                        <div class="controls">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_name">First Name *</label>
+                                        <input id="form_name" type="text" name="name" class="form-control"
+                                            placeholder="Please enter your firstname *" required="required"
+                                            data-error="Firstname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_lastname">Last Name *</label>
+                                        <input id="form_lastname" type="text" name="surname" class="form-control"
+                                            placeholder="Please enter your lastname *" required="required"
+                                            data-error="Lastname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_email">Email *</label>
+                                        <input id="form_email" type="text" name="_replyto" class="form-control"
+                                            placeholder="Please enter your email *" required="required"
+                                            data-error="Valid email is required.">
+                    
+                                        
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_need">Please specify your need *</label>
+                                        <select id="form_need" name="need" class="form-control" required="required"
+                                            data-error="Please specify your need.">
+                                            <option value=""></option>
+                                            <option value="Website Help">Website Help</option>
+                                            <option value="Networking">Networking</option>
+                                            <option value="Fish Tacos">Fish Taco Recipe</option>
+                                            <option value="Other">Other or Not Sure</option>
+                                        </select>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="form_message">Your Message *</label>
+                                        <textarea id="form_message" name="message" class="form-control"
+                                            placeholder="Message for me *" rows="4" required="required"
+                                            data-error="Please, leave us a message."></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12" id="center">
+                                    <input type="submit" class="btn btn-success btn-send"  value="Send">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12" id="center">
+                                   
+                                    <p class="text-muted">
+                                        <strong>*</strong>You will be re-directed to formspree.com, once I learn PHP I will undo this, sorry!</p>
+                                </div>
+                            </div>
+                        
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    
+
+
+
+
+    <footer class="footer">
+        <div class="footer_content">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="footer_logo text-center"><a href="#"><img src="images/logo_3.png" alt=""></a></div>
+                    </div>
+                </div>
+                <div class="row footer_row">
+                    <div class="col-lg-4 footer_col">
+                        <div class="footer_item text-center">
+                            <div
+                                class="footer_icon d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
+                                <div><img src="assets/phone.png" alt="phone"></div>
+                            </div>
+                            <div class="footer_title">talk to me</div>
+                            <div class="footer_list">
+                                <ul>
+                                    <p>+1 330 571 3020</p>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 footer_col">
+                        <div class="footer_item text-center">
+                            <div
+                                class="footer_icon d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
+                                <div><img src="assets/email.png" alt="email"></div>
+                            </div>
+                            <div class="footer_title">connect</div>
+                            <div class="footer_list">
+                                <ul>
+                                    <p>dfuenning@gmail.com</p>
+                                    <a href="https://github.com/DFuenning" target="_blank">GitHub</a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 footer_col">
+                        <div class="footer_item text-center">
+                            <div
+                                class="footer_icon d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
+                                <div><img src="assets/location.png" alt="location"></div>
+                            </div>
+                            <div class="footer_title">location</div>
+                            <div class="footer_list">
+                                <ul>
+                                    <p>Cleveland, OH</p>
+                                    <p style="color: rgb(255, 123, 0);">Go Browns</p>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="script.js" async defer></script>
+</body>
+
+</html>
