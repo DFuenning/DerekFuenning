@@ -290,7 +290,7 @@ nav {
 }
 
 .footer_content {
-    padding-top: 99px;
+    padding-top: 60px;
     padding-bottom: 30px;
 }
 
@@ -377,3 +377,28 @@ nav {
     }
 }
 
+/* RESUME PAGE */
+.resumeIntro {
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+iframe {
+    min-height: 820px;
+    min-width: 650px;
+    
+}
+
+.resume {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: 850px;
+    min-width: 600px;
+    
+}
+
+#centerResume {
+    display: flex;
+    justify-content: center;
+}
