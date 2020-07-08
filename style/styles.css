@@ -33,7 +33,7 @@ nav {
 
 .logo img {
    
-    padding-top: 115px
+    padding-top: 100px
 }
 
 
@@ -131,17 +131,24 @@ nav {
 
 }
 
+@media (width: 414px) {
+
+    
+}
+
 @media (max-width: 768px) {
     #things {
         margin-bottom: 210px;
-        margin-right: 20px;
-        margin-left: 20px;
-        flex-wrap: wrap;
-        vertical-align: middle;
+        padding-right: 35px;
+        padding-left: 35px;
     }
-
+    
     #things-cont {
         padding-top: 150px;
+        padding-right: 35px;
+        padding-left: 35px;
+        /* display: inline-block;
+        flex-wrap: wrap; */
     }
 
     #colorTwo {
